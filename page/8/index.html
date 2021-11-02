@@ -1,0 +1,492 @@
+<!DOCTYPE html><html data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo</title><meta name="author" content="wzk"><meta name="copyright" content="wzk"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://github.com/Return-sudo/myblog/page/8/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale">
+<meta property="og:image" content="https://github.com/Return-sudo/myblog/img/avatar.png">
+<meta property="article:author" content="wzk">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/Return-sudo/myblog/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://github.com/Return-sudo/myblog/page/8/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-11-02 16:56:29'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">180</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Music"><i class="fa-fw /music/"></i><span> 0</span></a></li><li><a class="site-page child" href="/Movie"><i class="fa-fw /movies/"></i><span> 1</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hexo</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Music"><i class="fa-fw /music/"></i><span> 0</span></a></li><li><a class="site-page child" href="/Movie"><i class="fa-fw /movies/"></i><span> 1</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E9%93%BE%E8%A1%A8/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E9%93%BE%E8%A1%A8/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.837Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 链表
+
+Leetcode 题解 - 链表
+1. 找出两个链表的交点
+2. 链表反转
+3. 归并两个有序的链表
+4. 从有序链表中删除重复节点
+5. 删除链表的倒数第 n 个节点
+6. 交换链表中的相邻结点
+7. 链表求和
+8. 回文链表
+9. 分隔链表
+10. 链表元素按奇偶聚集
+
+
+
+
+
+
+链表是空节点，或者有一个值和一个指向下一个链表的指针，因此很多链表问题可以用递归来处理。
+1. 找出两个链表的交点160. Intersection of Two Linked Lists (Easy)
+Leetcode / 力扣
+例如以下示例中 A 和 B 两个链表相交于 c1：
+12345A:          a1 → a2                    ↘                      c1 → c2 → c3                    ↗B:    b1 → b2 → b3
+
+但是不会出现以下相交的情况，因为每个节点只有一个 next 指针，也就只能有一个后继节点，而以下示例中节点 c 有两个后继节点。
+12345A:      ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.835Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 贪心思想
+
+Leetcode 题解 - 贪心思想
+1. 分配饼干
+2. 不重叠的区间个数
+3. 投飞镖刺破气球
+4. 根据身高和序号重组队列
+5. 买卖股票最大的收益
+6. 买卖股票的最大收益 II
+7. 种植花朵
+8. 判断是否为子序列
+9. 修改一个数成为非递减数组
+10. 子数组最大的和
+11. 分隔字符串使同种字符出现在一起
+
+
+
+
+
+
+保证每次操作都是局部最优的，并且最后得到的结果是全局最优的。
+1. 分配饼干455. Assign Cookies (Easy)
+Leetcode / 力扣
+12Input: grid[1,3], size[1,2,4]Output: 2
+
+题目描述：每个孩子都有一个满足度 grid，每个饼干都有一个大小 size，只有饼干的大小大于等于一个孩子的满足度，该孩子才会获得满足。求解最多可以获得满足的孩子数量。
+
+给一个孩子的饼干应当尽量小并且又能满足该孩子，这样大饼干才能拿来给满足度比较大的孩子。
+因为满足度最小的孩子最容易得到满足，所以先满足满足度最小的孩子。
+
+在以上的解法中，我们只在每次分配时饼干时选择一种看起来 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.832Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解前言本文从 Leetcode 中精选大概 200 左右的题目，去除了某些繁杂但是没有多少算法思想的题目，同时保留了面试中经常被问到的经典题目。
+算法思想
+双指针
+排序
+贪心思想
+二分查找
+分治
+搜索
+动态规划
+数学
+
+数据结构相关
+链表
+树
+栈和队列
+哈希表
+字符串
+数组与矩阵
+图
+位运算
+
+参考资料
+Leetcode
+Weiss M A, 冯舜玺. 数据结构与算法分析——C 语言描述[J]. 2004.
+Sedgewick R. Algorithms[M]. Pearson Education India, 1988.
+何海涛, 软件工程师. 剑指 Offer: 名企面试官精讲典型编程题[M]. 电子工业出版社, 2014.
+《编程之美》小组. 编程之美[M]. 电子工业出版社, 2008.
+左程云. 程序员代码面试指南[M]. 电子工业出版社, 2015.
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.830Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 树
+
+Leetcode 题解 - 树
+递归
+1. 树的高度
+2. 平衡树
+3. 两节点的最长路径
+4. 翻转树
+5. 归并两棵树
+6. 判断路径和是否等于一个数
+7. 统计路径和等于一个数的路径数量
+8. 子树
+9. 树的对称
+10. 最小路径
+11. 统计左叶子节点的和
+12. 相同节点值的最大路径长度
+13. 间隔遍历
+14. 找出二叉树中第二小的节点
+
+
+层次遍历
+1. 一棵树每层节点的平均数
+2. 得到左下角的节点
+
+
+前中后序遍历
+1. 非递归实现二叉树的前序遍历
+2. 非递归实现二叉树的后序遍历
+3. 非递归实现二叉树的中序遍历
+
+
+BST
+1. 修剪二叉查找树
+2. 寻找二叉查找树的第 k 个元素
+3. 把二叉查找树每个节点的值都加上比它大的节点的值
+4. 二叉查找树的最近公共祖先
+5. 二叉树的最近公共祖先
+6. 从有序数组中构造二叉查找树
+7. 根据有序链表构造平衡的二叉查找树
+8. 在二叉查找树中寻找两个节点，使它们的和为一个给定值
+9. 在二叉查找树中查找两个节点之差的最小绝对值
+10. 寻找二叉查找树中出现次数最多的值
+
+
+Trie
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.827Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 栈和队列
+
+Leetcode 题解 - 栈和队列
+1. 用栈实现队列
+2. 用队列实现栈
+3. 最小值栈
+4. 用栈实现括号匹配
+5. 数组中元素与下一个比它大的元素之间的距离
+6. 循环数组中比当前元素大的下一个元素
+
+
+
+
+
+
+1. 用栈实现队列232. Implement Queue using Stacks (Easy)
+Leetcode / 力扣
+栈的顺序为后进先出，而队列的顺序为先进先出。使用两个栈实现队列，一个元素需要经过两个栈才能出队列，在经过第一个栈时元素顺序被反转，经过第二个栈时再次被反转，此时就是先进先出顺序。
+12345678910111213141516171819202122232425262728293031class MyQueue &#123;    private Stack&lt;Integer&gt; in = new Stack&lt;&gt;();    private Stack&lt;Integer&gt; out = new Stack&lt;&gt;();    public void push(int x ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.825Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 数组与矩阵
+
+Leetcode 题解 - 数组与矩阵
+1. 把数组中的 0 移到末尾
+2. 改变矩阵维度
+3. 找出数组中最长的连续 1
+4. 有序矩阵查找
+5. 有序矩阵的 Kth Element
+6. 一个数组元素在 [1, n] 之间，其中一个数被替换为另一个数，找出重复的数和丢失的数
+7. 找出数组中重复的数，数组值在 [1, n] 之间
+8. 数组相邻差值的个数
+9. 数组的度
+10. 对角元素相等的矩阵
+11. 嵌套数组
+12. 分隔数组
+
+
+
+
+
+
+1. 把数组中的 0 移到末尾283. Move Zeroes (Easy)
+Leetcode / 力扣
+1For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
+
+1234567891011public void moveZeroes(int[] nums) &#123;    int idx = 0;    for (int num : nu ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E5%AD%A6/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E5%AD%A6/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.822Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 数学
+
+Leetcode 题解 - 数学
+素数分解
+整除
+最大公约数最小公倍数
+1. 生成素数序列
+2. 最大公约数
+3. 使用位操作和减法求解最大公约数
+
+
+进制转换
+1. 7 进制
+2. 16 进制
+3. 26 进制
+
+
+阶乘
+1. 统计阶乘尾部有多少个 0
+
+
+字符串加法减法
+1. 二进制加法
+2. 字符串加法
+
+
+相遇问题
+1. 改变数组元素使所有的数组元素都相等
+
+
+多数投票问题
+1. 数组中出现次数多于 n / 2 的元素
+
+
+其它
+1. 平方数
+2. 3 的 n 次方
+3. 乘积数组
+4. 找出数组中的乘积最大的三个数
+
+
+
+
+
+
+
+
+素数分解每一个数都可以分解成素数的乘积，例如 84 = 22 * 31 * 50 * 71 * 110 * 130 * 170 * …
+整除令 x = 2m0 * 3m1 * 5m2 * 7m3 * 11m4 * …
+令 y = 2n0 * 3n1 * 5n2 * 7n3 * 11n4 * …
+如果 x 整除 y（y mod x == 0），则对于所有 i，mi &lt;= ni。
+最大公约数最小公倍数x 和 y ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%90%9C%E7%B4%A2/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%90%9C%E7%B4%A2/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.819Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 搜索
+
+Leetcode 题解 - 搜索
+BFS
+1. 计算在网格中从原点到特定点的最短路径长度
+2. 组成整数的最小平方数数量
+3. 最短单词路径
+
+
+DFS
+1. 查找最大的连通面积
+2. 矩阵中的连通分量数目
+3. 好友关系的连通分量数目
+4. 填充封闭区域
+5. 能到达的太平洋和大西洋的区域
+
+
+Backtracking
+1. 数字键盘组合
+2. IP 地址划分
+3. 在矩阵中寻找字符串
+4. 输出二叉树中所有从根到叶子的路径
+5. 排列
+6. 含有相同元素求排列
+7. 组合
+8. 组合求和
+9. 含有相同元素的组合求和
+10. 1-9 数字的组合求和
+11. 子集
+12. 含有相同元素求子集
+13. 分割字符串使得每个部分都是回文数
+14. 数独
+15. N 皇后
+
+
+
+
+
+
+
+
+深度优先搜索和广度优先搜索广泛运用于树和图中，但是它们的应用远远不止如此。
+BFS  
+
+广度优先搜索一层一层地进行遍历，每层遍历都是以上一层遍历的结果作为起点，遍历一个距离能访问到的所有节点。需要注意的是，遍历过的节点不能再次被遍历。
+第一层：
+
+0 -&gt; {6, ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%8E%92%E5%BA%8F/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%8E%92%E5%BA%8F/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.817Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 排序
+
+Leetcode 题解 - 排序
+快速选择
+堆
+1. Kth Element
+
+
+桶排序
+1. 出现频率最多的 k 个元素
+2. 按照字符出现次数对字符串排序
+
+
+荷兰国旗问题
+1. 按颜色进行排序
+
+
+
+
+
+
+
+
+快速选择用于求解   Kth Element   问题，也就是第 K 个元素的问题。
+可以使用快速排序的 partition() 进行实现。需要先打乱数组，否则最坏情况下时间复杂度为 O(N2)。
+堆用于求解   TopK Elements   问题，也就是 K 个最小元素的问题。使用最小堆来实现 TopK 问题，最小堆使用大顶堆来实现，大顶堆的堆顶元素为当前堆的最大元素。实现过程：不断地往大顶堆中插入新元素，当堆中元素的数量大于 k 时，移除堆顶元素，也就是当前堆中最大的元素，剩下的元素都为当前添加过的元素中最小的 K 个元素。插入和移除堆顶元素的时间复杂度都为 log2N。
+堆也可以用于求解 Kth Element 问题，得到了大小为 K 的最小堆之后，因为使用了大顶堆来实现，因此堆顶元素就是第 K 大的元素。
+快速选择也可以求解 T ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="No title">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/11/02/CS-Notes-master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-11-02T08:55:54.815Z" title="Created 2021-11-02 16:55:54">2021-11-02</time></span></div><div class="content">Leetcode 题解 - 字符串
+
+Leetcode 题解 - 字符串
+1. 字符串循环移位包含
+2. 字符串循环移位
+3. 字符串中单词的翻转
+4. 两个字符串包含的字符是否完全相同
+5. 计算一组字符集合可以组成的回文字符串的最大长度
+6. 字符串同构
+7. 回文子字符串个数
+8. 判断一个整数是否是回文数
+9. 统计二进制字符串中连续 1 和连续 0 数量相同的子字符串个数
+
+
+
+
+
+
+1. 字符串循环移位包含编程之美 3.1
+12s1 = AABCD, s2 = CDAAReturn : true
+
+给定两个字符串 s1 和 s2，要求判定 s2 是否能够被 s1 做循环移位得到的字符串包含。
+s1 进行循环移位的结果是 s1s1 的子字符串，因此只要判断 s2 是否是 s1s1 的子字符串即可。
+2. 字符串循环移位编程之美 2.17
+12s = &quot;abcd123&quot; k = 3Return &quot;123abcd&quot;
+
+将字符串向右循环移动 k 位。
+将 abcd123 中的 abcd 和 123 单独翻转，得到 dcba321，然后对整个字 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/7/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/#content-inner">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/#content-inner">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/18/#content-inner">18</a><a class="extend next" rel="next" href="/page/9/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">wzk</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">180</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/11/02/CS-Notes-master/notes/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3/" title="No title"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/11/02/CS-Notes-master/notes/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3/" title="No title">No title</a><time datetime="2021-11-02T08:55:55.032Z" title="Created 2021-11-02 16:55:55">2021-11-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/02/CS-Notes-master/notes/%E9%9B%86%E7%BE%A4/" title="No title"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/11/02/CS-Notes-master/notes/%E9%9B%86%E7%BE%A4/" title="No title">No title</a><time datetime="2021-11-02T08:55:55.029Z" title="Created 2021-11-02 16:55:55">2021-11-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E9%80%82%E9%85%8D%E5%99%A8/" title="No title"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E9%80%82%E9%85%8D%E5%99%A8/" title="No title">No title</a><time datetime="2021-11-02T08:55:55.023Z" title="Created 2021-11-02 16:55:55">2021-11-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E8%BF%AD%E4%BB%A3%E5%99%A8/" title="No title"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E8%BF%AD%E4%BB%A3%E5%99%A8/" title="No title">No title</a><time datetime="2021-11-02T08:55:55.020Z" title="Created 2021-11-02 16:55:55">2021-11-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E8%B4%A3%E4%BB%BB%E9%93%BE/" title="No title"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/11/02/CS-Notes-master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E8%B4%A3%E4%BB%BB%E9%93%BE/" title="No title">No title</a><time datetime="2021-11-02T08:55:55.018Z" title="Created 2021-11-02 16:55:55">2021-11-02</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/hexo/" style="font-size: 1.1em; color: #999">hexo</a> <a href="/tags/nodejs-es6/" style="font-size: 1.1em; color: #999">nodejs&es6</a> <a href="/tags/typora/" style="font-size: 1.1em; color: #999">typora</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 1.1em; color: #999">前端</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/11/"><span class="card-archive-list-date">November 2021</span><span class="card-archive-list-count">175</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/10/"><span class="card-archive-list-date">October 2021</span><span class="card-archive-list-count">5</span></a></li></ul></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By wzk</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="Toggle Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "今日事，今日毕,Never put off till tomorrow what you can do today".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '今'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
